@@ -24,7 +24,8 @@ docker-compose up
 ##### PHPSTORM
 
 ###### Debug
-- set xdebug port to 9001
+- set xdebug port to 9001 (conflicts with DBGp Proxy Port)
+- set DPGp Proxy Port to 9000
 - enable "Can accept external connections"
 
 ###### Servers
