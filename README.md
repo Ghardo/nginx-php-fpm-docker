@@ -1,3 +1,5 @@
+Docker setup with nginx, php 7.1 fpm, dynamic vhosts, xdebug, mariadb, mailhog
+
 ### Installation
 ```
 git clone https://github.com/Ghardo/nginx-php-fpm-docker.git
@@ -37,3 +39,16 @@ docker-compose up
 - map server path of the project root to "/src/www/**PROJECTNAME**"
 
 replace **PROJECTNAME** with the name of the folder which include the project
+
+### Usage
+create a project in the CODE folder (in this case ~/code/www)
+**example:**
+```
+mkdir -p ~/code/www/project
+cd ~/code/www/project
+echo "<?php\nphpinfo();" > index.php
+```
+open http://project.dev in you're webbrowser
+
+every directory in the CODE folder is mapped to http://DIRECTORY.dev
+
