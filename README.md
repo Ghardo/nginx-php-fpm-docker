@@ -6,7 +6,7 @@ cd nginx-php-fpm-docker
 ### Configuration
 edit the **.env** file
 ```
-### project folder
+### project parent folder
 CODE=~/code/www
 # the ip of the local dns
 DNS=192.168.178.2
