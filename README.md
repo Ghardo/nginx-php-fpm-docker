@@ -41,7 +41,8 @@ docker-compose up
 replace **PROJECTNAME** with the name of the folder which include the project
 
 ### Usage
-create a project in the CODE folder (in this case ~/code/www)
+create a directory in the CODE folder (in this case ~/code/www)
+
 **example:**
 ```
 mkdir -p ~/code/www/project
